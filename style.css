@@ -64,3 +64,12 @@ header .actions span {
 	margin-left: -10px;
 }
 
+.hero {
+	background-image: url(img/Group1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-left {
+	border: 1px solid yellow;
+}
