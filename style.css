@@ -17,6 +17,7 @@ header .container > *, header li {
 .container {
 	width: 1112px;
 	margin: 0 auto;
+	border: 1px solid blue;
 }
 
 header .logo {
@@ -68,8 +69,64 @@ header .actions span {
 	background-image: url(img/Group1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 48px 0;
+}
+
+.hero-left, 
+.hero-right {
+	/* border: 1px solid yellow; */
+	display: inline-block;
 }
 
 .hero-left {
-	border: 1px solid yellow;
+	width: 494px;
+	vertical-align: 95px;
+}
+
+.hero-left p {
+	font-size: 20px;
+	color: #664535;
+	font-weight: bold;
+	line-height: 24px;
+	width: 400px;
+	margin: 28px 0 59px 0;
+}
+
+.hero-left a {
+	background-color: black;
+	display: inline-block;
+	color: #fff;
+	padding: 17px 33px;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.hero-left a:hover {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.633);
+}
+
+.hero-left h1 {
+	color: #fff;
+	font-size: 50px;
+}
+
+.hero-right img:first-child {
+	width: 550px;
+}
+
+.hero-right {
+	position: relative;
+}
+
+.hero-right img:first-child {
+	width: 600px;
+}
+
+.hero-right img:last-child {
+	width: 235px;
+	position: absolute;
+	right: 10px;
+	bottom: -10px;
 }
