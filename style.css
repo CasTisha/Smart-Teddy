@@ -189,3 +189,119 @@ header .actions span {
 	border-radius: 8px 8px 8px 0;
 	background-color: #F0F0EE;
 }
+
+.card2 {
+	margin-top: 77px;
+}
+
+.card2 .card-right {
+	margin-left: 0;
+}
+
+.card2 .card-left {
+	margin-left: 95px;
+}
+
+.offer .wrapper {
+	background-color: #13B0B1;
+	border-radius: 20px;
+	color: #fff;
+	padding: 45px 103px;
+}
+
+.offer-left h3 {
+	font-size: 30px;
+	margin-bottom: 18px;
+}
+
+.offer-left {
+	width: 480px;
+	display: inline-block;
+	margin-right: 57px;
+}
+
+.offer-left p {
+	font-size: 18px;
+}
+
+.offer a {
+	background-color: #FF8543;
+	padding: 17px 124px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 30px;
+	vertical-align: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.fairytales .container {
+	/* background-color: blue; */
+	padding: 20px;
+	overflow-x: scroll;
+}
+
+.faitytales {
+	margin-bottom: 300px;
+}
+
+.fairytales .wrapper {
+	/* background-color: orange; */
+	width: 130%;
+	position: relative;
+	left: -50px;
+}
+
+.fairytales-card {
+	display: inline-block;
+	margin-right: 15px;
+	border-radius: 10px;
+	width: 250px;
+	height: 290px;
+}
+
+.fairytales-card:nth-child(1) {
+	background-color: aqua;
+}
+
+.fairytales-card:nth-child(2) {
+	background-color: violet;
+}
+
+.fairytales-card:nth-child(3) {
+	background-color: brown;
+}
+
+.fairytales-card:nth-child(4) {
+	background-color: yellow;
+}
+
+.fairytales-card:nth-child(5) {
+	background-color: seagreen;
+}
+
+.description {
+	margin-bottom: 100px;
+}
+
+.description h3 {
+	display: inline-block;
+	font-size: 40px;
+	width: 370px;
+}
+
+.description .color {
+	color: #75B5C8;
+	position: relative;
+}
+
+.description .border {
+	background-color: black;
+	display: block;
+	width: 260px;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
