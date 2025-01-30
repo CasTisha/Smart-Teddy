@@ -15,7 +15,7 @@ header .container > *, header li {
 }
 
 .container {
-	width: 1112px;
+	max-width: 1112px;
 	margin: 0 auto;
 	border: 1px solid blue;
 }
@@ -124,7 +124,7 @@ header .actions span {
 }
 
 .hero-right img:first-child {
-	width: 525px;
+	width: 520px;
 }
 
 .hero-right img:last-child {
@@ -165,4 +165,27 @@ header .actions span {
 	position: absolute;
 	right: -85px;
 	bottom: -50px;
+}
+
+.tutorial .card-right {
+	display: inline-block;
+	vertical-align: 150px;
+	font-size: 40px;
+	width: 450px;
+	margin-left: 125px;
+	color: #664535;
+}
+
+.card-left::before {
+	content: "Easy to control!";
+	position: absolute;
+	top: 50px;
+	left: 380px;
+	width: 140px;
+	line-height: 27.02px;
+	font-size: 19.81px;
+	/* height: 30px; */
+	padding: 24px 20px;
+	border-radius: 8px 8px 8px 0;
+	background-color: #F0F0EE;
 }
