@@ -305,3 +305,40 @@ header .actions span {
 	bottom: 0;
 	right: 0;
 }
+
+.battery {
+	padding: 28px 0;
+	text-align: center;
+}
+
+.battery .circle {
+	background-color: lightslategrey;
+	border-radius: 50%;
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	
+}
+
+.battery .circle svg {
+	color: white;
+	width: 100px;
+	height: 54px;
+	display: block;
+	margin: 10px auto;
+}
+
+.battery .circle label {
+	color: #fff;
+	font-size: 24px;
+	display: block;
+	margin: 0 auto;
+}
+
+.battery h4 {
+	font-size: 32px;
+	width: 250px;
+	margin: 40px auto;
+	line-height: 1.5;
+}
+
