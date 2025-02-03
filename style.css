@@ -424,3 +424,30 @@ header .actions span {
 	top: 65px;
 	left: 550px;
 }
+
+footer {
+	background-color: rgb(77, 15, 15, 0.563);
+	color: #fff;
+}
+
+.footer-top {
+	border: 1px solid red;
+}
+
+.footer-top > *,
+footer nav ul {
+	margin-right: 40px;
+	list-style: none;
+	display: inline-block;
+	border: 2px solid yellow;
+}
+
+footer .logo {
+	margin-right: 0;
+}
+
+footer .info {
+	width: 250px;
+}
+
+
