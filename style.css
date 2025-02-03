@@ -342,3 +342,85 @@ header .actions span {
 	line-height: 1.5;
 }
 
+.money-back-wrapper {
+	background-color: #7372BD;
+	border-radius: 20px;
+	color: #fff;
+	padding: 44px 73px 26px ;
+	position: relative;
+}
+
+.money-back-left {
+	width: 460px;
+	display: inline-block;
+}
+
+.money-back-left h3 {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.money-back-left p {
+	font-size: 18px;
+	margin: 15px 0 18px;
+}
+
+.money-back-left a {
+	color: #fff;
+	border-radius: 30px;
+	background-color: #FF8543;
+	text-decoration: none;
+	padding: 17px 124px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.money-back-left a {
+	position: relative;
+	overflow: hidden;
+}
+
+.money-back-left a::after {
+	content: "";
+	position: absolute;
+	top: -16px;
+	left: -40px;
+	width: 30px;
+	height: 80px;
+	background-color: #fff;
+	filter: blur(20px);
+	transform: rotate(25deg);
+	transition: 0.5s;
+}
+
+.money-back-left a:hover::after {
+	transform: translateX(500px) rotate(25deg);
+}
+
+.money-back-right {
+	border: 1px solid red;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.money-back-right img {
+	position: absolute;
+}
+
+.money-back-right img:nth-child(1) {
+	top: -80px;
+}
+
+.money-back-right img:nth-child(2) {
+	top: 67px;
+	left: 160px;
+}
+
+.money-back-wrapper > img {
+	position: absolute;
+	top: 65px;
+	left: 550px;
+}
