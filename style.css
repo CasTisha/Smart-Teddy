@@ -436,7 +436,7 @@ footer {
 
 .footer-top > *,
 footer nav ul {
-	margin-right: 40px;
+	margin-right: 150px;
 	list-style: none;
 	display: inline-block;
 	border: 2px solid yellow;
@@ -450,4 +450,140 @@ footer .info {
 	width: 250px;
 }
 
+.footer-top > *, .footer-top nav > ul {
+	vertical-align: top;
+}
 
+.footer-top a:not(.logo) {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.footer-top ul li:first-child {
+	font-weight: bold;
+	font-size: larger;
+	margin-bottom: 20px;
+}
+
+.footer-top ul:last-child {
+	margin-right: 0;
+}
+
+.footer-top .info h5 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.footer-top .info p {
+	line-height: 1.6;
+}
+
+footer {
+	padding: 40px 0;
+}
+
+footer form > * {
+	display: block;
+}
+
+footer form label {
+	margin-bottom: 15px;
+}
+
+footer form input[type="email"] {
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 40px;
+	color: #fff;
+	width: 260px;
+	padding: 10px 15px;
+	font-size: 17px;
+	transition: 0.5s;
+}
+
+footer form input[type="email"]:focus {
+	outline: none;
+	border-color: rgba(255,255,255, 0.564);
+}
+
+footer form input[type="email"]::placeholder {
+	color: rgba(255,255,255, 0.564);
+}
+
+footer form {
+	position: relative;
+	display: inline-block;
+}
+
+footer form input[type="image"] {
+	position: absolute;
+	bottom: 12px;
+	right: 16px;
+	transition: 0.5s;
+}
+
+footer form input[type="image"]:hover {
+	right: 20px;
+}
+
+footer .socials {
+	text-align: center;
+	margin-top: 30px;
+}
+
+footer .socials a {
+	text-decoration: none;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 15px;
+	margin-right: 20px;
+	box-shadow: 0 5px 15px 0 #0000004e;
+	position: relative;
+	overflow: hidden;
+}
+
+footer .socials i {
+	font-size: 22px;
+	color: royalblue;
+	vertical-align: -23px;
+	transition: 0.3s;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+footer .socials a:hover i {
+	font-size: 26px;
+	color: #fff;
+}
+
+footer .socials a::before {
+	content: "";
+	position: absolute;
+	top: 50px;
+	left: -80px;
+	width: 90px;
+	height: 90px;
+	border: 1px solid red;
+	background-color: royalblue;
+	transform: rotate(45deg);
+	transition: 0.3s;
+}
+
+footer .socials a:hover::before {
+	top: -10px;
+	left: -20px;
+	animation: move 0.7s;
+}
+
+@keyframes move {
+	50% {
+		transform: translate(45px, -45px) rotate(45deg);
+	}
+}
